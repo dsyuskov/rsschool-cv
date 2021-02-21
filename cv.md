@@ -19,3 +19,11 @@
 - JavaScript;
 - React, Redux, Mobx;
 - Vue, Vuex;
+
+### ***Code examples***
+- Bank Card - https://github.com/dsyuskov/formcard
+- Test Task for Biman - https://github.com/dsyuskov/binman
+
+### ***Experience***
+- March 2020 - December 2020 TransTelematika
+- December 2020 - Disco
