@@ -1,70 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>dsyuskov sv</title>
 </head>
-
 <body>
-  <header>
-    <h1>Dmitrii IUskov</h1>
-    <p>Front-end developer</p>
-    <img src="./assets//images//avatar.jpg" alt="avatar">
-    <div>
-      <p>phone: +79271146521</p>
-      <p>e-mail: yuskovss@gmail.com</p>
-    </div>
-  </header>
-  <main>
-    <section>
-      <h2>Summary</h2>
-      <p>I want to improve my professional skills.</p>
-    </section>
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML;</li>
-        <li>CSS(Less, Scss);</li>
-        <li>SQL;</li>
-        <li>Pug;</li>
-        <li>WebPack;</li>
-        <li>JavaScript;</li>
-        <li>React, Redux, Mobx;</li>
-        <li>Vue, Vuex;</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Code examples</h2>
-      <ul>
-        <li><a href="https://github.com/dsyuskov/formcard">Bank Card</a></li>
-        <li><a href="https://github.com/dsyuskov/binman">Test Task for Biman</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li>March 2020 - December 2020<span>TransTelematika</span></li>
-        <li>December 2020<span>Disco</span></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li><a href="https://www.codecademy.com/profiles/Dmitrii-Uskov">Codecademy</a></li>
-        <li><a href="https://htmlacademy.ru/profile/id101411">Htmlacademy</a></li>
-        <li><a href="https://www.codewars.com/users/int_21h">Codewars</a></li>
-        <li><a href="https://stepik.org/users/47794686/certificates">Stepic</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Languages</h2>
-      <p>English - reading technical documentation.</p>
-    </section>
-  </main>
-  <footer>© 2019 Dmitrii IUskov</footer>
-
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">Dmitrii IUskov</h1>
+      <p class="header__position">Front-end developer</p>
+      <div class="header__contacts">
+        <p>phone: +79271146521</p>
+        <p>e-mail: yuskovss@gmail.com</p>
+      </div>
+      <img class="header__avatar" src="./assets//images//avatar.jpg" alt="avatar">
+    </header>
+    <main>
+      <section class="section section_top">
+        <h2 class="section__title">Summary</h2>
+        <p>I want to improve my professional skills.</p>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Skills</h2>
+        <ul class="section__list">
+          <li>HTML;</li>
+          <li>CSS(Less, Scss);</li>
+          <li>SQL;</li>
+          <li>Pug;</li>
+          <li>WebPack;</li>
+          <li>JavaScript;</li>
+          <li>React, Redux, Mobx;</li>
+          <li>Vue, Vuex;</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Code examples</h2>
+        <ul class="section__list">
+          <li><a target="_blank" href="https://github.com/dsyuskov/formcard">Bank Card</a></li>
+          <li><a target="_blank" href="https://github.com/dsyuskov/binman">Test Task for Biman</a></li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Experience</h2>
+        <ul class="section__list">
+          <li>March 2020 - December 2020 - <span>TransTelematika</span></li>
+          <li>December 2020 - <span>Disco</span></li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Education</h2>
+        <ul class="section__list">
+          <li><a target="_blank" href="https://htmlacademy.ru/profile/id101411">Htmlacademy</a></li>
+          <li><a target="_blank" href="https://www.codewars.com/users/int_21h">Codewars</a></li>
+          <li><a target="_blank" href="https://stepik.org/users/47794686/certificates">Stepic</a></li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section__title">Languages</h2>
+        <p>English - reading technical documentation.</p>
+      </section>
+    </main>
+    <footer class="footer">© 2019 Dmitrii IUskov</footer>
+  </div>
 </body>
-
 </html>
