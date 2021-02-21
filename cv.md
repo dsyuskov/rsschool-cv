@@ -27,3 +27,12 @@
 ### ***Experience***
 - March 2020 - December 2020 TransTelematika
 - December 2020 - Disco
+
+### ***Education***
+- [Codecademy](https://www.codecademy.com/profiles/Dmitrii-IUskov)
+- [Htmlacademy](https://htmlacademy.ru/profile/id101411)
+- [Codewars](https://www.codewars.com/users/int_21h)
+- [Stepic](https://stepik.org/users/47794686/certificates)
+
+### ***Languages***
+- English - reading technical documentation.
