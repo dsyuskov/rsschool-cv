@@ -1,0 +1,1 @@
+[dsyuskov](https://dsyuskov.github.io/rsschool-cv/cv)
